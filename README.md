@@ -16,6 +16,7 @@ Decider is a tool to help analysts map adversary behavior to the MITRE ATT&CK fr
 
 \(*you are here*\)**\[Matrix > Tactic\]** > Technique > SubTechnique
 ![Decider's Question Tree Page](./docs/imgs/question-tree-1.0.0.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fchillux%2Fdecider.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fchillux%2Fdecider?ref=badge_shield)
 
 #### Decider's Full Technique Search
 
@@ -107,3 +108,7 @@ Help Tips:
 - Mac M1 users should install Postgres before installing the pip requirements
   - `brew install postgresql`
   - **Explained:** *psycopg2-binary* isn't using a pre-built binary and tries to compile from scratch, and it can't find *pg_config*.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fchillux%2Fdecider.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fchillux%2Fdecider?ref=badge_large)
